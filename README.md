@@ -18,4 +18,4 @@ If you wanted to compile and run the program, here are the commands that you sho
 ## Video Demonstration
 The following video shows a couple lookups with 32, 64, and 128 nodes.
 
-[![](Thumbnail.png)](https://youtu.be/s5xbywJmUX4)
+[![Thumbnail](Thumbnail.png)](https://youtu.be/s5xbywJmUX4 "Thumbnail")
