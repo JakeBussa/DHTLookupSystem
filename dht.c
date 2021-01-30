@@ -5,12 +5,6 @@
 	Program that implements a dht-based system in order to resolve
 	key to address lookups. Prints output that is used as input to
 	dht.dgs which is then used to display what's happening.
-        To get things to work, type this in your terminal:
-	gcc -Wall dht.c -o dht -lm
-	./dht > dht.dgs
-	javac dht.java
-	java dht
-	yay!
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -123,6 +117,8 @@ void setNodesInChargeOf(int onlineNodeId) {
 	onlineNode->dht->nodesInChargeOfLength = i;
 }
 
+// power function adapted to work for this program only
+// was originally using pow(x, y) from <math.h>, but required gcc -Wall dht.c -o dht -lm
 int power(int x, int y) {
 
 	if(y == 0)
