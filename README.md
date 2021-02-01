@@ -14,14 +14,14 @@ Thanks for reading!
 into a file called *dht.dgs* and run *dht.class*
 
     ./dht > dht.dgs
-    java -cp "jars/gs-algo-1.3/gs-algo-1.3.jar;jars/gs-core-1.3/gs-core-1.3.jar;jars/gs-ui-1.3/gs-ui-1.3.jar;" dht
+    java -cp "GraphStreamLibrary/gs-algo-1.3/gs-algo-1.3.jar;GraphStreamLibrary/gs-core-1.3/gs-core-1.3.jar;GraphStreamLibrary/gs-ui-1.3/gs-ui-1.3.jar;" dht
 ## To Compile and Run
 If you wanted to both compile and run the program, here are the commands that you should run.
 
     gcc -Wall dht.c -o dht -lm
     ./dht > dht.dgs
-    javac -cp "jars/gs-algo-1.3/gs-algo-1.3.jar;jars/gs-core-1.3/gs-core-1.3.jar;jars/gs-ui-1.3/gs-ui-1.3.jar;" dht.java
-    java -cp "jars/gs-algo-1.3/gs-algo-1.3.jar;jars/gs-core-1.3/gs-core-1.3.jar;jars/gs-ui-1.3/gs-ui-1.3.jar;" dht
+    javac -cp "GraphStreamLibrary/gs-algo-1.3/gs-algo-1.3.jar;GraphStreamLibrary/gs-core-1.3/gs-core-1.3.jar;GraphStreamLibrary/gs-ui-1.3/gs-ui-1.3.jar;" dht.java
+    java -cp "GraphStreamLibrary/gs-algo-1.3/gs-algo-1.3.jar;GraphStreamLibrary/gs-core-1.3/gs-core-1.3.jar;GraphStreamLibrary/gs-ui-1.3/gs-ui-1.3.jar;" dht
 ## Video Demonstration
 If you click on the thumbnail below, you will be redirected to a Youtube video showcasing how the lookup system works.
 These lookups are done with 32, 64, and 128 nodes. I'm not a video editor, so hopefully it isn't too blurry.
