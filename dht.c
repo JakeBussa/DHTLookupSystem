@@ -12,9 +12,9 @@
 #include <unistd.h>
 #include <math.h>
 #include <string.h>
-#define n 32
 #define PI 3.14159265359
 
+int n = 32;
 int step;
 
 struct DistributedHashTable {
@@ -470,7 +470,24 @@ void lookup(int key, int start, int lastLookup) {
 	}
 }
 
-int main() {
+// https://stackoverflow.com/questions/600293/how-to-check-if-a-number-is-a-power-of-2
+int isPowerOfTwo(int value) {
+	return value != 0 && (value & (value - 1)) == 0;
+}
+
+int main(int argc, char **argv) {
+
+	// default is 32 nodes, user can change this to any power of two in the command argument
+	if (argc == 2) {
+		
+		int value = atoi(argv[1]);
+		int isValidValue = value != 0;
+		int isPowerOfTwo2 = isPowerOfTwo(value);
+
+		if (isValidValue && isPowerOfTwo2) {
+			n = value;
+		}
+	}
 
 	// creating each node and setting whether that node is online (has 30% chance of being online)
 	srand(time(NULL));

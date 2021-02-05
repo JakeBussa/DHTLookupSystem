@@ -11,7 +11,8 @@ modeling and analyzing graphs. This library is super cool! More info can be foun
 Thanks for reading!
 ## To Run
 *dht.exe* produces output that the *dht.class* uses in order display the lookup system in action. Redirect this output
-into a file called *dht.dgs* and run *dht.class*
+into a file called *dht.dgs* and run *dht.class*. By default, the program runs using 32 nodes, you can change this by
+supplying a value (must be of power two) as an argument. Example: ./dht 64 > dht.dgs
 
     ./dht > dht.dgs
     java -cp "GraphStreamLibrary/gs-algo-1.3/gs-algo-1.3.jar;GraphStreamLibrary/gs-core-1.3/gs-core-1.3.jar;GraphStreamLibrary/gs-ui-1.3/gs-ui-1.3.jar;" dht
