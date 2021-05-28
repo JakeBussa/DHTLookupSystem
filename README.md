@@ -1,4 +1,4 @@
-# Distributed Hash Table Lookup System
+# DHT Lookup System
 ## Introduction
 Hello!
 This was a project that I worked on in my Distributed Systems class. The purpose is to visually show how a 
@@ -25,6 +25,6 @@ If you wanted to both compile and run the program, here are the commands that yo
     java -cp "GraphStreamLibrary/gs-algo-1.3/gs-algo-1.3.jar;GraphStreamLibrary/gs-core-1.3/gs-core-1.3.jar;GraphStreamLibrary/gs-ui-1.3/gs-ui-1.3.jar;" dht
 ## Video Demonstration
 If you click on the thumbnail below, you will be redirected to a Youtube video showcasing how the lookup system works.
-These lookups are done with 32, 64, and 128 nodes. I'm not a video editor, so hopefully it isn't too blurry.
+These lookups are done with 32, 64, and 128 nodes.
 
 [![Thumbnail](READMEImage/Thumbnail.PNG)](https://youtu.be/s5xbywJmUX4 "Thumbnail")
